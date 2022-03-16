@@ -25,8 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["fierce-sea-29241.herokuapp.com", "chrome-extension://admin"]
-
+ALLOWED_HOSTS = ["fierce-sea-29241.herokuapp.com"]#, "chrome-extension://admin"]
+CSRF_TRUSTED_ORIGINS = ["https://fierce-sea-29241.herokuapp.com"]
 
 # Application definition
 
